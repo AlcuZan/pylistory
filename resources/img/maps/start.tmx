@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="40" height="22" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="94">
+ <tileset firstgid="1" source="tilemap.tsx"/>
+ <tileset firstgid="487" source="../../tsx/colored_transparent.tsx"/>
+ <tileset firstgid="1543" source="GB_Soldier_SOUTH_strip4.tsx"/>
+ <tileset firstgid="1547" source="GB_Soldier_IDLE_EAST_strip4.tsx"/>
+ <tileset firstgid="1551" source="GB_Soldier_IDLE_WEST_strip4.tsx"/>
+ <tileset firstgid="1555" source="GB_Soldier_IDLE_NORTH_strip4.tsx"/>
+ <layer id="1" name="Background" width="40" height="22">
+  <data encoding="csv">
+29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,45,46,47,44,45,46,47,44,45,46,47,44,45,46,47,29,29,29,29,442,29,29,29,29,29,
+29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,72,73,74,71,72,73,74,71,72,73,74,71,72,73,74,29,29,29,29,442,29,139,140,141,29,
+29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,99,100,101,98,99,100,101,98,99,100,101,98,99,100,101,29,29,29,29,442,29,45,46,47,29,
+29,29,29,29,29,29,29,29,442,442,442,469,442,442,442,442,469,442,442,469,442,469,442,469,442,442,442,442,442,442,442,442,469,442,442,29,72,73,74,29,
+147,148,149,150,147,148,149,150,442,29,29,29,29,29,29,29,442,29,29,29,29,29,29,29,29,153,154,155,153,154,155,29,29,29,442,29,99,100,101,29,
+153,154,155,152,153,154,155,152,442,45,46,47,45,46,47,442,469,29,29,29,29,29,29,29,29,180,181,182,180,181,182,29,29,29,442,461,461,466,29,29,
+180,181,182,179,180,181,182,179,442,72,73,74,72,73,74,442,29,29,29,29,29,29,29,29,29,207,208,209,207,208,209,29,29,29,442,29,139,140,141,29,
+207,118,209,206,207,118,209,206,442,99,100,101,99,100,101,442,29,45,46,47,153,154,155,29,442,442,442,442,442,442,442,442,29,29,464,29,153,154,155,29,
+37,442,37,37,37,442,37,37,442,442,442,442,469,442,442,469,29,72,73,74,180,181,182,29,442,29,45,46,46,47,29,442,29,29,464,29,180,181,182,29,
+37,442,37,37,37,442,37,37,442,37,37,37,37,37,37,442,29,99,100,101,207,208,209,29,442,29,72,73,73,74,29,442,29,29,442,29,207,208,209,29,
+37,442,37,37,37,442,37,37,442,45,46,47,45,46,47,442,442,469,442,442,442,442,469,442,442,29,99,100,100,101,29,442,29,29,442,442,442,442,29,29,
+442,442,442,442,442,442,442,442,442,72,73,74,72,73,74,29,442,29,29,29,29,29,29,29,442,442,469,442,29,29,29,442,29,29,442,29,139,140,141,29,
+29,29,29,29,29,29,29,29,29,99,100,101,99,100,101,29,442,29,29,29,29,29,29,29,29,29,29,29,29,29,29,442,461,461,442,29,45,46,47,29,
+29,29,29,29,29,29,29,29,29,442,442,442,442,442,442,442,442,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,442,29,72,73,74,29,
+154,155,153,154,155,153,154,155,29,29,29,442,29,442,147,148,148,148,148,148,149,29,29,29,147,148,149,150,147,148,149,29,29,29,442,29,99,100,101,29,
+181,182,180,181,182,180,181,182,29,29,29,442,29,442,153,154,155,152,153,154,155,29,29,29,153,154,155,152,153,154,155,29,29,29,442,442,442,442,29,29,
+208,209,207,208,209,207,208,209,29,29,29,442,29,442,180,181,182,179,180,181,182,29,29,29,180,181,182,179,180,181,182,29,29,29,442,29,139,140,141,29,
+442,442,442,442,442,442,442,442,442,442,442,442,29,442,207,208,209,206,207,208,209,29,29,29,207,208,209,206,207,208,209,29,29,29,442,29,45,46,47,29,
+37,37,37,37,37,37,37,442,29,29,29,29,29,442,29,442,29,29,29,442,29,29,29,29,29,442,29,29,29,442,29,29,29,29,442,29,72,73,74,29,
+37,37,37,37,37,37,37,442,29,29,29,29,29,442,442,442,442,442,442,442,442,442,442,442,442,442,442,442,442,442,442,442,442,442,442,29,99,100,101,29,
+47,45,46,47,45,46,47,442,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,442,442,442,442,29,29,
+74,72,73,74,72,73,74,442,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,442,29,29,29,29,29
+</data>
+ </layer>
+ <layer id="2" name="Foreground" width="40" height="22">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,262,263,264,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,234,0,365,0,0,0,365,0,0,0,365,0,0,0,365,0,234,0,289,290,291,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,382,0,261,0,337,0,0,0,337,0,0,0,337,0,0,0,337,0,261,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,139,140,141,139,140,141,0,0,0,0,0,336,0,336,0,
+0,0,0,0,0,0,0,0,246,147,148,149,147,148,149,0,0,2147483811,0,0,0,0,0,0,0,0,0,0,0,0,0,0,316,317,318,0,0,418,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483838,0,0,0,0,0,0,0,0,336,0,0,336,0,2147483811,343,344,345,442,442,442,0,0,
+0,363,0,0,0,363,0,0,0,336,0,0,0,336,0,0,0,147,148,149,147,148,149,0,0,284,0,0,0,0,284,2147483838,370,371,372,0,0,0,0,0,
+0,386,0,0,0,386,0,0,0,0,0,284,284,0,0,0,0,0,0,0,0,0,0,0,442,442,139,140,140,141,442,442,0,0,442,0,0,0,0,0,
+0,442,0,0,0,442,0,0,0,0,0,0,0,0,0,0,234,336,0,336,336,0,336,0,442,234,0,0,0,0,234,442,0,0,442,0,336,0,336,0,
+0,442,234,0,234,442,0,0,0,139,140,141,139,140,141,0,261,0,284,0,0,284,0,0,442,261,0,336,336,0,261,442,235,236,237,0,0,337,0,0,
+0,442,261,0,261,442,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,442,0,0,284,336,0,0,442,262,263,264,0,0,0,0,0,
+0,0,0,0,0,442,0,0,0,336,0,336,336,0,336,0,0,0,0,0,0,0,0,0,442,442,442,0,0,0,0,442,289,290,291,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,284,0,0,0,284,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,442,442,442,442,0,0,0,0,0,
+148,149,139,140,141,147,148,149,0,0,2147483811,0,234,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,336,829,336,0,
+0,0,0,0,0,0,0,0,0,0,2147483838,0,261,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,316,317,318,0,0,337,0,0,
+336,0,336,0,336,0,336,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,343,344,345,0,0,0,0,0,
+284,0,0,284,0,0,284,0,0,0,0,0,0,0,363,790,363,0,363,0,363,235,236,237,363,0,363,0,363,0,363,0,370,371,372,0,0,0,0,0,
+0,234,0,234,0,234,0,0,0,0,0,0,0,0,0,337,0,0,0,337,0,262,263,264,0,337,0,0,0,337,0,2147483811,0,355,0,0,0,0,0,0,
+0,261,0,261,0,261,0,0,0,0,0,0,0,0,302,0,303,0,0,0,0,289,290,291,0,0,0,0,0,0,0,2147483838,0,0,0,0,336,0,336,0,
+149,147,148,149,139,140,141,0,234,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,418,0,0,
+0,0,0,0,0,0,0,0,261,0,0,0,0,0,0,0,316,317,318,0,0,0,0,0,0,0,316,317,318,0,0,0,235,236,237,0,0,0,0,0,
+0,0,336,0,0,336,0,0,0,0,0,0,0,0,0,0,343,344,345,0,0,0,0,0,0,0,343,344,345,0,0,0,262,263,264,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="6" name="Kreuzer" width="40" height="22" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1555,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="10" name="Kreuzer_new" width="40" height="22" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,1555,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="8" name="Soldiers" width="40" height="22" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1551,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1551,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,1547,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1551,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1551,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1551,0,0,0,0,0,0,0,0,0,0,0,0,1543,1543,1543,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1551,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,1547,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,1547,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,1547,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="3" name="standard_objects">
+  <object id="1" name="player_1" x="598.967" y="334.599" width="1.54545" height="1.54545"/>
+  <object id="2" name="player_2" x="295.25" y="171.647" width="0.909091" height="2.18182"/>
+  <object id="3" name="event_game_start" x="596.272" y="324.755" width="7" height="5.625">
+   <properties>
+    <property name="active" type="bool" value="true"/>
+    <property name="narration" value="Mit einem mulmigen Gefühl macht sich Elias auf den Weg zum örtlichen Gemüsehändler. Er meidet jeglichen Blickkontakt auf der Straße. "/>
+    <property name="speaker1" value="dad"/>
+    <property name="speaker2" value="elias"/>
+    <property name="text1_dad" value="Vater: Elias, sei doch bitte so gut und geh' kurz zum Gemüseladen. Dort wartet meine Bestellung von gestern."/>
+    <property name="text1_elias" value="Elias: Natürlich Vater. Bin gleich wieder da."/>
+    <property name="text2_dad" value="Vater: Aber achte auf deine Worte. Erst kürzlich hat die SA dort Leute festgenommen. Der Händler hat sich sehr verändert."/>
+    <property name="text2_elias" value="Elias: So wie viele Leute. Seit Ende Januar hat sich alles verändert. Nationale Revolution nennen sie es...auf einmal müssen sich alle entscheiden, auf welcher Seite sie stehen.Schade, dass wir keine andere Option haben, um Gemüse zu kaufen. Es gibt da so eine neue Verordnung..."/>
+    <property name="text3_dad" value="Vater: Deswegen sollst du vorsichtig sein. Ich will nicht, dass sie dich ohne einen Grund in Schutzhaft nehmen. Wer weiß, was dann mit dir passieren würde."/>
+    <property name="text3_elias" value="Elias: Ich werde vorsichtig sein. Versprochen."/>
+    <property name="triggered_by" value="player1"/>
+   </properties>
+  </object>
+  <object id="4" x="523" y="225" width="26" height="45.5"/>
+  <object id="5" x="577" y="256.818" width="46.375" height="47.4318"/>
+  <object id="6" x="577.25" y="178.75" width="46" height="45.25"/>
+  <object id="7" x="575.75" y="96.75" width="46.5" height="59.5"/>
+  <object id="8" x="576.75" y="18.75" width="46.5" height="59.5"/>
+  <object id="10" x="385.75" y="226.75" width="107.167" height="59.5"/>
+  <object id="11" x="271.75" y="227.25" width="63.5" height="59.5"/>
+  <object id="13" x="144.75" y="148.25" width="93.5" height="59.5"/>
+  <object id="14" x="143.25" y="65.75" width="96" height="59.5"/>
+  <object id="16" x="244.417" y="-1.25" width="231.333" height="47"/>
+  <object id="17" x="399.25" y="50.25" width="93.5" height="59.5"/>
+  <object id="18" x="418.25" y="113.75" width="60.5" height="62"/>
+  <object id="19" x="224.75" y="225.25" width="45" height="32"/>
+  <object id="20" x="225" y="261" width="12" height="25"/>
+  <object id="21" x="257" y="261" width="12" height="25"/>
+  <object id="22" x="523" y="146.25" width="26" height="45.5"/>
+  <object id="23" x="522.5" y="64.25" width="26" height="45.5"/>
+  <object id="24" x="523" y="0.25" width="26" height="32"/>
+  <object id="25" x="480.5" y="21.25" width="13.5" height="26"/>
+  <object id="26" x="225" y="23.25" width="12" height="23"/>
+  <object id="28" x="258" y="134" width="12" height="23"/>
+  <object id="29" x="403" y="134" width="12" height="23"/>
+  <object id="30" x="482.5" y="136.5" width="12" height="23"/>
+  <object id="31" x="194.5" y="222" width="12" height="18"/>
+  <object id="32" x="347" y="258.75" width="26" height="41"/>
+  <object id="34" x="426.5" y="322.023" width="25.5" height="29.7273"/>
+  <object id="35" x="521" y="322" width="26" height="30"/>
+  <object id="36" x="267" y="323.409" width="25" height="29.0909"/>
+  <object id="37" name="event_veggie_store" x="241.5" y="274.938" width="12" height="13.0625">
+   <properties>
+    <property name="active" type="bool" value="true"/>
+    <property name="hide_p1" type="bool" value="true"/>
+    <property name="hide_p2" type="bool" value="true"/>
+    <property name="narration" value="Klaus packt Elias beim Arm und zerrt ihn aus dem Laden. Den Gemüsekorb muss Elias stehen lassen. Er glaubt, dass nun sein letztes Stündchen geschlagen hat. Doch Klaus hat andere Pläne, als Elias zunächst annimmt. Er will Elias helfen, da er ihn an seinen verstorbenen Sohn erinnert. So begeben sich die Beiden zum Haus von Elias' Vater.       "/>
+    <property name="speaker1" value="klaus"/>
+    <property name="speaker2" value="elias"/>
+    <property name="text1_elias" value="Verzeihung, mein Herr. Ich bin hier, um eine Bestellung für meinen Vater abzuholen."/>
+    <property name="text1_klaus" value="Du! Was tust du hier? "/>
+    <property name="text2_elias" value="Elias Holzfeld. Dürfte ich bitte gehen? Mein Vater macht sich sicher schon Sorgen..."/>
+    <property name="text2_klaus" value="Wie ist dein Name?"/>
+    <property name="text3_elias" value="Nein, bitte, wir haben doch nichts getan..."/>
+    <property name="text3_klaus" value="Holzfeld....den Namen kenne ich! Führe mich zu deinem Haus! Wir werden uns mal etwas unterhalten."/>
+    <property name="triggered_by" value="player2"/>
+   </properties>
+  </object>
+  <object id="40" x="-0.416667" y="304.25" width="109.5" height="47.5"/>
+  <object id="41" x="1.91667" y="210.25" width="124.833" height="60.1667"/>
+  <object id="42" x="3.33333" y="64.5833" width="124.167" height="47.5"/>
+  <object id="43" x="95.875" y="112.5" width="31.5" height="15.25"/>
+  <object id="44" x="31.75" y="112.375" width="47.75" height="15.25"/>
+  <object id="45" x="0.75" y="113.25" width="14.75" height="15.25"/>
+  <object id="46" x="271.75" y="99.25" width="93.5" height="59.5"/>
+  <object id="47" name="event_klaus_talks_to_kreuzer" x="290.697" y="161.832" width="9.09091" height="7.24432">
+   <properties>
+    <property name="narration" value="Klaus macht sich auf den Weg zum Gemüseladen, in dem Elias Besorgungen für seinen Vater erledigen soll. Ihm schwirrt noch im Kopf herum, dass unter den gefangenen Juden 10 Kinder sind. Klaus fragt sich, warum Kinder dieses Schicksal ebenfalls teilen müssen...sind sie nicht unschuldig?"/>
+    <property name="remove_npc" value="True"/>
+    <property name="speaker1" value="klaus"/>
+    <property name="speaker2" value="kreuzer"/>
+    <property name="text1_klaus" value="Kreuzer! Ich bin Ihre Ablöse. Berichten Sie. "/>
+    <property name="text1_kreuzer" value="Jawohl Herr Scharführer! Die vier Familien wurden wie befohlen in Schutzhaft genommen. Einer hatte die Familie Baum versteckt und dafür die Todesstrafe bekommen."/>
+    <property name="text2_klaus" value="Sehr gut. Das macht in Summe 26 Personen in Schutzhaft, richtig? Wie viele Kinder waren unter ihnen? Haben Sie den Gemüseladen beobachten lassen? Die Juden scheinen dort ein- undauszugehen. Ist wohl noch nicht bei jedem angekommen, dass Juden nichts verkauft bekommen sollen!"/>
+    <property name="text2_kreuzer" value="Mit dem Verräter sind es 27, darunter 10 Kinder. Der Laden steht unter Beobachtung, bisher ist dort jedoch nicht viel passiert, Herr Scharführer. Ich muss sagen, dass die neue  Verordnung uns vieles vereinfacht."/>
+    <property name="text3_klaus" value="Da haben Sie Recht, Kreuzer. Ich werde mir diesen Gemüseladen einmal genauer ansehen. Sie können abtreten."/>
+    <property name="triggered_by" value="player2"/>
+   </properties>
+  </object>
+  <object id="48" x="288.25" y="177" width="14.5" height="15"/>
+  <object id="49" x="607.75" y="304.5" width="16.125" height="13.9375"/>
+  <object id="50" x="575.813" y="304.438" width="16.125" height="13.625"/>
+  <object id="52" name="event_elias_and_klaus_talk_to_dad" x="592.288" y="304.483" width="15.1818" height="13.7784">
+   <properties>
+    <property name="active" type="bool" value="false"/>
+    <property name="hide_p1" type="bool" value="true"/>
+    <property name="hide_p2" type="bool" value="true"/>
+    <property name="speaker1" value="klaus"/>
+    <property name="speaker2" value="dad"/>
+    <property name="text1_dad" value="Ja, der bin ich, mein Herr. Kann ich Ihnen weiterhelfen? Gibt es ein Problem?"/>
+    <property name="text1_klaus" value="Jakob Holzfeld?"/>
+    <property name="text2_dad" value="Verzeihung mein Herr, aber ich verstehe nicht...was ist denn los? Sind Sie der Vater des Jungen, der gestorben ist? Ich erinnere mich, dass ich ihn einmal beim Stehlen ertappt, aber ihn nicht angezeigt habe..."/>
+    <property name="text2_klaus" value="Hören Sie mir jetzt genau zu. Ich erinnere mich, dass Sie meinem Sohn einmal geholfen haben. Ich werde das Gleiche für Sie tun."/>
+    <property name="text3_dad" value="Ich habe befürchtet, dass dieser Tag kommen würde. Bitte, bringen Sie meinen Sohn in Sicherheit!"/>
+    <property name="text3_klaus" value="Sie wurden erwischt. Wir wissen, dass Sie Juden sind. Daher werden meine Kameraden jeden Moment hier sein, um Sie in Schutzhaft zu nehmen. Für Sie kann ich nichts tun,          Ihr Gesicht ist bekannt. Aber ich werde Ihrem Sohn bei der Flucht helfen!"/>
+    <property name="text4_dad" value="Ich habe befürchtet, dass dieser Tag kommen würde. Bitte, bringen Sie meinen Sohn in Sicherheit."/>
+    <property name="triggered_by" value="player2"/>
+   </properties>
+  </object>
+  <object id="54" name="event_klaus_shows_document" x="578.5" y="321.219" width="12" height="13.0625">
+   <properties>
+    <property name="active" type="bool" value="false"/>
+    <property name="hide_p1" type="bool" value="false"/>
+    <property name="hide_p2" type="bool" value="false"/>
+    <property name="narration" value="Klaus gibt Elias ein Dokument."/>
+    <property name="speaker1" value="klaus"/>
+    <property name="speaker2" value="elias"/>
+    <property name="text1_elias" value="Mir helfen? Ich verstehe nicht. Ich habe von irgendeiner Verordnung gehört, aber ich weiß nicht genau, was es damit auf sich hat."/>
+    <property name="text1_klaus" value="Hör zu Elias. Ich werde dir helfen. Du hast sicher etwas von der Verordnung des Reichspräsidenten zum Schutz von Volk und Staat gehört?"/>
+    <property name="text2_klaus" value="Hier, lies das."/>
+    <property name="triggered_by" value="player1, player2"/>
+   </properties>
+  </object>
+  <object id="55" name="event_elias_and_klaus_talk_after_dad" x="594.471" y="314.186" width="12" height="13.0625">
+   <properties>
+    <property name="active" type="bool" value="false"/>
+    <property name="hide_p1" type="bool" value="false"/>
+    <property name="hide_p2" type="bool" value="false"/>
+    <property name="narration" value="Elias schreibt Klaus auf, welche Dinge er aus der Schreinerei besorgen soll und macht sich auf den Weg. Klaus begibt sich zur Schreinerei, um die Sachen zu besorgen. Sie liegt direkt über dem Haus von Elias' Vater."/>
+    <property name="speaker1" value="elias"/>
+    <property name="speaker2" value="klaus"/>
+    <property name="text1_elias" value="Was haben Sie mit meinem Vater gemacht?!"/>
+    <property name="text1_klaus" value="Beruhig dich. Deinem Vater geht es gut. Aber nicht mehr lange. Meine Kameraden sind schon auf dem Weg. Wir müssen fliehen!"/>
+    <property name="text2_elias" value="Nicht ohne meinen Vater!"/>
+    <property name="text2_klaus" value="Dein Vater will, dass du lebst! Ich kann nur einen von euch retten. Er hat mich angefleht, dass du das sein sollst und ich werde seinem Wunsch entsprechen!"/>
+    <property name="text3_elias" value="Vater...was sollen wir denn jetzt nur tun?"/>
+    <property name="text3_klaus" value="Es gibt ein verlassenes Haus im Nordwesten der Stadt. Geh' dort hin. Rede mit niemandem. Dort werden sie definitiv nicht nach dir suchen."/>
+    <property name="text4_elias" value="Aber ich habe doch nichts bei mir!"/>
+    <property name="text4_klaus" value="Hier hast du einen Zettel und einen Stift. Schreib' auf, was du brauchst, und ich hole es dir. Ich gehe zuerst los, wenn ich in der Schreinerei bin machst du dich auf den Weg.  Man sollte uns nicht zusammen sehen."/>
+    <property name="triggered_by" value="player1, player2"/>
+   </properties>
+  </object>
+  <object id="56" x="607.724" y="224.469" width="16.125" height="15.125"/>
+  <object id="57" x="575.787" y="224.407" width="16.125" height="15.125"/>
+  <object id="58" name="event_klaus_gets_things" x="592.846" y="223.923" width="14" height="15.0625">
+   <properties>
+    <property name="active" type="bool" value="false"/>
+    <property name="hide_p1" type="bool" value="false"/>
+    <property name="hide_p2" type="bool" value="true"/>
+    <property name="narration" value="Klaus betritt die Schreinerei, um die Sachen für Elias zu besorgen."/>
+    <property name="triggered_by" value="player2"/>
+   </properties>
+  </object>
+  <object id="59" name="event_elias_hides" x="79.9091" y="112.651" width="15.3636" height="15.0625">
+   <properties>
+    <property name="active" type="bool" value="false"/>
+    <property name="hide_p1" type="bool" value="true"/>
+    <property name="hide_p2" type="bool" value="true"/>
+    <property name="speaker1" value="klaus"/>
+    <property name="speaker2" value="elias"/>
+    <property name="text1_elias" value="Ich glaube nicht. Ich hatte ein bisschen Zeit, das Dokument zu lesen, das Sie mir gegeben haben. Es ist schlimmer, als ich dachte. Keine Pressefreiheit mehr? Meinungsfreiheit   und Versammlungsfreiheit auch nicht?! Was geht hier vor sich? Und wer sind Sie überhaupt?"/>
+    <property name="text1_klaus" value="Gut, du hast es gefunden. Ich habe deine Sachen. Hat dich jemand gesehen?"/>
+    <property name="text2_elias" value="Scharführer? Warum sollte einer von der SS mir helfen? Das muss eine Falle sein!"/>
+    <property name="text2_klaus" value="Ich verstehe, dass du Fragen hast. Am wichtigsten ist jetzt, dass wir einander vertrauen. Mein Name ist Klaus Schneider. Nenn mich Klaus. Ich bin Scharführer in der SS."/>
+    <property name="text3_elias" value="Mir gefällt das nicht. Aber ich habe wohl keine Wahl. Also schön, Klaus. Wie ist dein Plan?"/>
+    <property name="text3_klaus" value="Hör zu Junge. Ich habe es satt. Die vielen Unschuldigen. Ich bereue, der SS beigetreten zu sein und die Dinge, die ich tun musste. Mein Sohn hätte das nicht gewollt. Ich bin derEinzige, der dir hier heraushelfen kann, also musst du mir vertrauen!"/>
+    <property name="text4_klaus" value="Dieses Haus hier war ein Lager der SS. Es soll bald abgerissen werden. In diesen Kisten hier sind aber noch einige Uniformen. Wir werden dich verkleiden, damit du als einer von uns durchgehst. Du musst also eine Uniform wählen, die zu meiner passt. Dann fliehen wir gemeinsam zur Grenze westlich von hier."/>
+    <property name="triggered_by" value="player1, player2"/>
+   </properties>
+  </object>
+  <object id="79" x="257.25" y="292.875" width="12.5284" height="9.63636"/>
+  <object id="80" x="225.219" y="293" width="12.7102" height="9.09091"/>
+  <object id="82" name="event_elias_and_klaus_talk_to_kreuzer" x="83.4545" y="149.878" width="9.09091" height="7.24432">
+   <properties>
+    <property name="active" type="bool" value="false"/>
+    <property name="speaker1" value="klaus"/>
+    <property name="speaker2" value="kreuzer"/>
+    <property name="text1_klaus" value="Kreuzer! Was machen Sie hier?"/>
+    <property name="text1_kreuzer" value="Wir sind auf der Suche nach einem Flüchtigen, Herr Scharführer."/>
+    <property name="text2_klaus" value="Nach wem genau suchen Sie?"/>
+    <property name="text2_kreuzer" value="Ein Jude auf der Flucht. Der Sohn des Schreiners Holzfeld. Den alten Holzfeld haben wir bereits in Schutzhaft genommen. Wen haben Sie denn da bei sich? Das Gesicht habe ich noch nie gesehen."/>
+    <property name="text3_klaus" value="Das ist ein neuer Kamerad, der von mir ausgebildet wird. Ich bin sehr stolz auf ihn. Los, fragen Sie ihn etwas. Er wird die Antwort kennen."/>
+    <property name="text3_kreuzer" value="Mir ist neu, dass Sie persönlich Leute ausbilden. Dann wollen wir den Jungen mal testen. Wenn er so werden will wie Sie, sollte er schon einiges auf dem Kasten haben!"/>
+    <property name="triggered_by" value="player2"/>
+   </properties>
+  </object>
+  <object id="83" x="111.667" y="48.3333" width="16" height="15.3333"/>
+  <object id="84" x="112.667" y="31.6667" width="111.333" height="15.3333"/>
+  <object id="85" x="128" y="208.5" width="15.5" height="15"/>
+  <object id="86" x="288.5" y="194.5" width="13" height="27"/>
+  <object id="87" x="370" y="96" width="28" height="15.5"/>
+  <object id="88" name="event_game_over" x="0.75" y="176.75" width="14.5" height="14.75">
+   <properties>
+    <property name="active" type="bool" value="false"/>
+    <property name="triggered_by" value="player1, player2"/>
+   </properties>
+  </object>
+  <object id="89" x="239.938" y="257.438" width="15.375" height="14.6875"/>
+  <object id="90" x="33.25" y="146.25" width="13.25" height="24.75"/>
+  <object id="91" x="64" y="148.5" width="13.625" height="23.75"/>
+  <object id="92" x="97.8182" y="128.727" width="13.6364" height="44.7273"/>
+  <object id="93" x="64.7273" y="129.273" width="12.9091" height="15.0909"/>
+ </objectgroup>
+ <objectgroup id="9" name="elias_escape_events">
+  <object id="63" x="549.364" y="224.864" width="25.5909" height="15.0909"/>
+  <object id="64" x="191.955" y="208.455" width="15.0909" height="15.0909"/>
+  <object id="65" x="192.955" y="241.455" width="15.0909" height="108.591"/>
+  <object id="68" x="272.818" y="160.091" width="15.0909" height="15.0909"/>
+  <object id="69" x="276.455" y="47.9545" width="15.0909" height="47.0909"/>
+  <object id="72" x="221.955" y="127.955" width="15.0909" height="15.0909"/>
+  <object id="78" x="501.955" y="254.705" width="15.0909" height="15.0909"/>
+  <object id="81" x="149.455" y="129.455" width="15.0909" height="15.0909"/>
+ </objectgroup>
+</map>

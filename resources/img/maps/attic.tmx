@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="40" height="22" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="17">
+ <tileset firstgid="1" source="background_attic.tsx"/>
+ <tileset firstgid="2" source="../../tsx/colored_transparent.tsx"/>
+ <objectgroup id="2" name="attic_background">
+  <object id="1" name="background" gid="1" x="0.0105132" y="704" width="1280" height="703.479"/>
+ </objectgroup>
+ <objectgroup id="4" name="attic_boxes">
+  <object id="14" name="box1" type="clickable" x="350" y="328" width="340.667" height="110.667">
+   <properties>
+    <property name="content" value="Die Uniform der Schutzstaffel. Vornehmlich paramilitärischer Art. Ursprünglich braun wie die SA-Uniform, später dann auf Verlangen Hitlers grau mit schwarzen Lackstiefeln. Bis 1930 mit Kampfbinde versehen, danach ergänzt mit Dienstgradspiegeln, dann ab 1933 mit Schulterstücken. Wurde 1935 für alle SS-Mitglieder durch schwarze Uniform ersetzt."/>
+   </properties>
+  </object>
+  <object id="15" name="box2" type="clickable" x="529" y="152" width="192.485" height="51.7318" rotation="6">
+   <properties>
+    <property name="content" value="Die Uniform der Schutzabteilung. Die Farbe Braun wurde ab 1925 zur Farbe der rechten Bewegung erklärt und symbolisierte eine besondere Verbundenheit des Trägers mit Heimat und Boden. Besonderes Merkmal war die rote Hakenkreuzbinde am linken Arm. Rangabzeichen wurden auf dem linken Kragenspiegel getragen."/>
+   </properties>
+  </object>
+  <object id="16" name="box3" type="clickable" x="976.666" y="310.666" width="118" height="52.667">
+   <properties>
+    <property name="content" value="Die Uniform der Reichswehr. Farblich oft genauso gestaltet wie die Waffen. Es wurden zusätzlich zu den Rangabzeichen Zahlen und Buchstaben verwendet, um Truppenteile und -verbände zu nummerieren und kennzeichnen. Später wurde die Reichswehr zur Wehrmacht, dies wurde dort beibehalten.  "/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="attic_arrow">
+  <object id="8" name="arrow3" gid="990" x="483.333" y="531.333" width="99" height="93"/>
+  <object id="9" name="arrow2" gid="990" x="592.833" y="293.833" width="99" height="93"/>
+  <object id="10" name="arrow1" gid="990" x="989.5" y="449.167" width="99" height="93"/>
+ </objectgroup>
+</map>
