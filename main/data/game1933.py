@@ -60,6 +60,8 @@ class Game1933(Game):
         self.event = None
         self.start_attic_event = False
         self.start_kreuzer_quiz = False
+        self.klaus_is_at_carpentry = False
+        self.klaus_has_things = False
 
     def start_scenario(self):
         """
@@ -109,16 +111,18 @@ class Game1933(Game):
     def handle_map_events(self):
         # TODO hackfix
         try:
-            if self.p2.rect.colliderect(
-                self.dialogue_handler.dict_events["event_klaus_gets_things"]
-            ):
+            event = self.dialogue_handler.dict_events["event_klaus_gets_things"]
+            if self.p2.rect.colliderect(event) and event.active:
+                # TODO klaus stellt sich vor tischlerei, es soll nur narration kommen und klaus kann sich nicht mehr bewegen
                 self.p1.can_move = True
                 self.p2.reset()
                 self.p2.can_move = False
+                self.show_players_after_event = False
                 # TODO Klaus should say this
                 self.dialogue_handler.play_narrator_text(
                     NarrationTexts.KLAUS_WAITS_IN_FRONT_OF_CARPENTRY
                 )
+
         except KeyError:
             pass
         for event_name, event in self.dialogue_handler.dict_events.items():
@@ -139,7 +143,8 @@ class Game1933(Game):
                     if event_name == "event_klaus_shows_document":
                         self.show_document = True
                     # Elias walks into the hiding place so Klaus can get things
-                    if event_name == "event_elias_hides" and event.active:
+                    if event_name == "event_elias_hides":
+                        self.klaus_is_at_carpentry = True
                         self.dialogue_handler.play_narrator_text(
                             NarrationTexts.ELIAS_HIDES
                         )
@@ -173,7 +178,12 @@ class Game1933(Game):
                 if self.p2.rect.colliderect(event) and self.show_p2:
                     self.event = event
                     if "player" in event.triggered_by and event.active:
-                        self._state = GameStates.DIALOGUE
+                        if event_name != "event_klaus_gets_things":
+                            self._state = GameStates.DIALOGUE
+                        if event_name == "event_elias_hides":
+                            # todo klaus läuft in event, es soll kein dialog sein, außer er hat things
+                            if not self.klaus_has_things:
+                                self._state = GameStates.PLAYING
                         if event.hide_p2 and event.active and not self.show_p1:
                             self.show_p2 = False
                             self.map_to_draw.draw()
@@ -213,16 +223,24 @@ class Game1933(Game):
                                 "event_elias_hides"
                             ].active = True
                             self.p1.can_move = False
-                        if event_name == "event_klaus_gets_things":
+                            self.dialogue_handler.dict_events[
+                                "event_klaus_gets_things"
+                            ].active = True
+                        if (
+                            event_name == "event_klaus_gets_things"
+                            and self.klaus_is_at_carpentry
+                        ):
                             self.dialogue_handler.play_narrator_text(
                                 NarrationTexts.KLAUS_ENTERS_CARPENTRY
                             )
                             self._state = GameStates.CARPENTRY
+                            self.klaus_has_things = True
 
                         if event_name == "event_klaus_shows_document":
                             self.show_document = True
 
-                        if event_name == "event_elias_hides":
+                        # Klaus goes to Elias hiding place
+                        if event_name == "event_elias_hides" and not self.show_p1:
                             self.load_attic()  # then dialogue, then state change to attic
                             self.start_attic_event = True
                             self.map_to_draw.update(
