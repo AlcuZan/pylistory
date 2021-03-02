@@ -1,3 +1,5 @@
+Zum Starten des Spiels einfach die Datei pylistory.bat ausführen. 
+
 Dialog- und Textfenster können mit der Leertaste oder der Eingabetaste fortgesetzt werden.
 
 Spieler 1 (Elias) bewegt sich mit den Pfeiltasten fort.
@@ -5,9 +7,6 @@ Spieler 1 (Elias) bewegt sich mit den Pfeiltasten fort.
 Spieler 2 (Klaus) bewegt sich mit WASD fort.
 
 Es gibt Momente im Spiel, an denen sich der eine oder der andere Spieler nicht fortbewegen kann, solange der andere seine Aufgabe nicht erfüllt hat. Das ist beabsichtigt.
-
-Bei Fragen:
-manuel_baudach@hotmail.com oder einfach auf Discord / Whatsapp
 
 Ich hatte bei ein paar Testern das Problem, dass ihre Antivirenprogramme angeschlagen sind.
 Das sollte nun bei den gängigen behoben sein.
@@ -18,3 +17,6 @@ Hier nachzulesen: https://stackoverflow.com/questions/43777106/program-made-with
 
 Ansonsten habe ich auch den Source Code bereitgestellt, falls jemand das Ganze einfach als Python Skript starten möchte.
 Hierzu müssen Python 3.9 und die nötigen requirements (siehe requirements.txt) installiert sein. 
+
+Bei Fragen:
+manuel_zeitz@outlook.de oder einfach auf Discord / Whatsapp
